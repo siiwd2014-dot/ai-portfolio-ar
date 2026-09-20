@@ -364,14 +364,14 @@ export default function Home() {
           <div className="mx-auto mb-7 flex w-fit items-center gap-3 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-xs font-bold text-white/50"><span className="h-2 w-2 animate-pulse rounded-full bg-[#d8ff61]" /> نفتح أبوابنا للأفكار الجريئة</div>
           <h2 className="font-display text-5xl font-bold leading-[.95] tracking-[-0.08em] text-white md:text-8xl">لديك فكرة<br /><span className="text-gradient">غير عادية؟</span></h2>
           <p className="mx-auto mt-8 max-w-[520px] text-sm leading-7 text-white/50">أرسل لنا شرارتك الأولى. سنساعدك على تحويلها إلى تجربة تُرى، تُسمع، وتُحفظ.</p>
-          <a href="mailto:hello@nova-studio.ai" className="group mx-auto mt-10 inline-flex items-center gap-4 rounded-full bg-[#d8ff61] px-6 py-4 text-sm font-extrabold text-[#091113] transition hover:-translate-y-1 hover:shadow-[0_14px_40px_rgba(216,255,97,0.18)]">hello@nova-studio.ai <ArrowUpLeft className="h-5 w-5 transition group-hover:-translate-x-1" /></a>
+          <a href="mailto:hello@nova-studio.ai" target="_blank" rel="noopener noreferrer" className="group mx-auto mt-10 inline-flex items-center gap-4 rounded-full bg-[#d8ff61] px-6 py-4 text-sm font-extrabold text-[#091113] transition hover:-translate-y-1 hover:shadow-[0_14px_40px_rgba(216,255,97,0.18)]">hello@nova-studio.ai <ArrowUpLeft className="h-5 w-5 transition group-hover:-translate-x-1" /></a>
         </div>
       </section>
 
       <footer className="border-t border-white/10 px-5 py-8 lg:px-10">
         <div className="mx-auto flex max-w-[1380px] flex-col justify-between gap-5 text-xs text-white/35 md:flex-row md:items-center">
           <div className="font-display font-bold tracking-[-0.04em] text-white/70">NOVA<span className="text-[#d8ff61]">/</span> AI ART DIRECTION</div>
-          <div className="flex items-center gap-5"><a href="#" className="transition hover:text-[#d8ff61]"><Instagram className="h-4 w-4" /></a><a href="#" className="transition hover:text-[#d8ff61]"><Linkedin className="h-4 w-4" /></a><a href="#" className="transition hover:text-[#d8ff61]"><Github className="h-4 w-4" /></a><span>© 2026 NOVA Studio</span></div>
+          <div className="flex items-center gap-5"><a href="#" target="_blank" rel="noopener noreferrer" className="transition hover:text-[#d8ff61]"><Instagram className="h-4 w-4" /></a><a href="#" target="_blank" rel="noopener noreferrer" className="transition hover:text-[#d8ff61]"><Linkedin className="h-4 w-4" /></a><a href="#" target="_blank" rel="noopener noreferrer" className="transition hover:text-[#d8ff61]"><Github className="h-4 w-4" /></a><span>© 2026 NOVA Studio</span></div>
         </div>
       </footer>
 
