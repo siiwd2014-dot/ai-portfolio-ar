@@ -96,7 +96,7 @@ const projects = [
     subtitle: "أداة ويب تساعد المستخدم على تشخيص أعطال مكيّف السيارة بخطوات واضحة.",
     image: "/manus-storage/03-repaired_bca01e5c.jpg",
     accent: "cyan",
-    link: "https://drive.google.com/file/d/1WAs7p8aHyHiQ_Z_8QpcBbeZdSuFKTahq/view?usp=drive_link",
+    link: "https://drive.google.com/uc?export=download&id=1_8eucLnIMvVWpjNVlImQc7xJlYe8Srpu",
     stat: "06",
     statLabel: "أداة ذكية",
   },
