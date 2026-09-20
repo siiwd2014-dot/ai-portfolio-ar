@@ -19,7 +19,8 @@ import {
   Zap,
 } from "lucide-react";
 
-const heroImage = "/manus-storage/nova-hero_90d95235.jpg";
+const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`;
+const heroImage = asset("nova-hero.jpg");
 
 const projects = [
   {
@@ -29,7 +30,7 @@ const projects = [
     type: "IMAGE",
     title: "حقيبة الطوارئ الذكية",
     subtitle: "تصميم إعلاني مولّد لمنتج بقاء ذكي، مع سرد بصري واضح ومحتوى تسويقي عربي.",
-    image: "/manus-storage/01-tawari_730bfbb3.jpg",
+    image: asset("01-tawari.jpg"),
     accent: "amber",
     link: "https://drive.google.com/file/d/1kdfm8a7vW8wtTX-NOCnQSXWqQpjb7jgf/view?usp=drive_link",
     stat: "01",
@@ -42,7 +43,7 @@ const projects = [
     type: "IMAGE",
     title: "مساحة هادئة",
     subtitle: "تصوّر داخلي لغرفة معيشة مع تنسيق الألوان والخامات والتكوين النهائي.",
-    image: "/manus-storage/02-decor_fbce4e84.jpg",
+    image: asset("02-decor.jpg"),
     accent: "lime",
     link: "https://drive.google.com/file/d/1kWmaXWWsJXHH_XNtrWpDhvXH3QFYgSsW/view?usp=drive_link",
     stat: "02",
@@ -55,7 +56,7 @@ const projects = [
     type: "IMAGE",
     title: "حلول البناء المقترحة",
     subtitle: "لوحة توضيحية تشرح أخطاء التنفيذ والحلول الهندسية المقترحة بطريقة مباشرة.",
-    image: "/manus-storage/03-repaired_bca01e5c.jpg",
+    image: asset("03-repaired.jpg"),
     accent: "orange",
     link: "https://drive.google.com/file/d/1jttnt9U9uwUJqvlOXcomCsZpn-7C8i79/view?usp=drive_link",
     stat: "03",
@@ -68,7 +69,7 @@ const projects = [
     type: "IMAGE",
     title: "الديناصور في وسط البلد",
     subtitle: "مشهد بصري مركّب يضع ديناصورًا عملاقًا وسط عمّان مع الحفاظ على التفاصيل المحلية.",
-    image: "/manus-storage/04-edited_81956a31.png",
+    image: asset("04-edited.jpg"),
     accent: "blue",
     link: "https://drive.google.com/file/d/1gatPvwhiVqfXh1uqpJ8Rz7rErqMtxSYL/view?usp=drive_link",
     stat: "04",
@@ -81,7 +82,7 @@ const projects = [
     type: "WEB EXPERIENCE",
     title: "Pac-Man / نسخة مخصّصة",
     subtitle: "لعبة متصفح تفاعلية مبنية كقطعة ويب قابلة للتجربة والمشاركة.",
-    image: "/manus-storage/pacman-cover_22c7b558.jpg",
+    image: asset("pacman-cover.jpg"),
     accent: "violet",
     link: "https://drive.google.com/uc?export=download&id=1svVhhJ9evP-Hpxqxq1AF8p9RYXDjTU1x",
     stat: "05",
@@ -94,7 +95,7 @@ const projects = [
     type: "WEB EXPERIENCE",
     title: "المرشد الذكي للمكيّف",
     subtitle: "أداة ويب تساعد المستخدم على تشخيص أعطال مكيّف السيارة بخطوات واضحة.",
-    image: "/manus-storage/ac-guide-cover_80f089bf.jpg",
+    image: asset("ac-guide-cover.jpg"),
     accent: "cyan",
     link: "https://drive.google.com/uc?export=download&id=1_8eucLnIMvVWpjNVlImQc7xJlYe8Srpu",
     stat: "06",
@@ -107,7 +108,7 @@ const projects = [
     type: "DATA FILE",
     title: "لوحة درجات الطلاب",
     subtitle: "جدول درجات منظم لخمس اختبارات، يصلح كأساس لتقارير ولوحات متابعة تعليمية.",
-    image: "/manus-storage/student-grades-cover_46305d0f.jpg",
+    image: asset("student-grades-cover.jpg"),
     accent: "green",
     link: "https://docs.google.com/spreadsheets/d/164npyqf7hrM4TkfP8Jin76-EeznYTJio/edit?usp=drive_link&ouid=105977811018565278477&rtpof=true&sd=true",
     stat: "07",
@@ -120,7 +121,7 @@ const projects = [
     type: "PRESENTATION",
     title: "تجميع الحاسوب من الصفر",
     subtitle: "عرض تعليمي يشرح مكونات الحاسوب وخطوات التجميع بأسلوب مبسط.",
-    image: "/manus-storage/modern-computer-cover_1c00eb9e.jpg",
+    image: asset("modern-computer-cover.jpg"),
     accent: "orange",
     link: "https://drive.google.com/file/d/1bQ_ISe1BV_vTBQPRy6B3Tcw7WBRlG1qw/view?usp=drive_link",
     stat: "08",
@@ -343,7 +344,7 @@ export default function Home() {
       <section id="studio" className="relative border-y border-white/10 bg-[#0d1719]">
         <div className="mx-auto grid max-w-[1380px] gap-14 px-5 py-24 lg:grid-cols-[.85fr_1.15fr] lg:items-center lg:px-10 lg:py-32">
           <div className="relative order-2 aspect-square overflow-hidden rounded-[2.5rem] border border-white/10 lg:order-1">
-            <img src="/manus-storage/nova-architecture_d5d7c879.jpg" alt="مساحة استوديو مستقبلية" className="h-full w-full object-cover grayscale" />
+            <img src={asset("nova-architecture.jpg")} alt="مساحة استوديو مستقبلية" className="h-full w-full object-cover grayscale" />
             <div className="absolute inset-0 bg-gradient-to-tr from-[#d8ff61]/20 via-transparent to-[#f37036]/20 mix-blend-screen" />
             <div className="absolute bottom-5 right-5 rounded-full border border-white/20 bg-[#091113]/70 px-4 py-2 text-[10px] font-bold tracking-[0.18em] backdrop-blur-md">NOVA / BEYOND THE OBVIOUS</div>
           </div>
