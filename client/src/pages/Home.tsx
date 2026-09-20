@@ -251,7 +251,7 @@ export default function Home() {
               <span className="h-px w-14 bg-[#d8ff61]" />
               <span>مختبر بصري مستقل للذكاء الاصطناعي</span>
             </div>
-            <h1 className="reveal font-display text-[clamp(4rem,9vw,8.9rem)] font-bold leading-[.88] tracking-[-0.09em] text-[#f5f8ef]" style={{ animationDelay: "160ms" }}>
+            <h1 aria-label="نُعيد تخيّل الممكن" className="reveal font-display text-[clamp(4rem,9vw,8.9rem)] font-bold leading-[.88] tracking-[-0.09em] text-[#f5f8ef]" style={{ animationDelay: "160ms" }}>
               نُعيد
               <br />
               <span className="text-gradient">تخيّل</span>
