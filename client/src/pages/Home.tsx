@@ -120,7 +120,7 @@ const projects = [
     type: "PRESENTATION",
     title: "تجميع الحاسوب من الصفر",
     subtitle: "عرض تعليمي يشرح مكونات الحاسوب وخطوات التجميع بأسلوب مبسط.",
-    image: "/manus-storage/01-tawari_730bfbb3.jpg",
+    image: "/manus-storage/modern-computer-cover_1c00eb9e.jpg",
     accent: "orange",
     link: "https://drive.google.com/file/d/1bQ_ISe1BV_vTBQPRy6B3Tcw7WBRlG1qw/view?usp=drive_link",
     stat: "08",
