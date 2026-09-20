@@ -94,7 +94,7 @@ const projects = [
     type: "WEB EXPERIENCE",
     title: "المرشد الذكي للمكيّف",
     subtitle: "أداة ويب تساعد المستخدم على تشخيص أعطال مكيّف السيارة بخطوات واضحة.",
-    image: "/manus-storage/03-repaired_bca01e5c.jpg",
+    image: "/manus-storage/ac-guide-cover_80f089bf.jpg",
     accent: "cyan",
     link: "https://drive.google.com/uc?export=download&id=1_8eucLnIMvVWpjNVlImQc7xJlYe8Srpu",
     stat: "06",
