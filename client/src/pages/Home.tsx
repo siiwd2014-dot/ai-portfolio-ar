@@ -107,7 +107,7 @@ const projects = [
     type: "DATA FILE",
     title: "لوحة درجات الطلاب",
     subtitle: "جدول درجات منظم لخمس اختبارات، يصلح كأساس لتقارير ولوحات متابعة تعليمية.",
-    image: "/manus-storage/02-decor_fbce4e84.jpg",
+    image: "/manus-storage/student-grades-cover_46305d0f.jpg",
     accent: "green",
     link: "https://docs.google.com/spreadsheets/d/164npyqf7hrM4TkfP8Jin76-EeznYTJio/edit?usp=drive_link&ouid=105977811018565278477&rtpof=true&sd=true",
     stat: "07",
